@@ -158,7 +158,11 @@ This repository contains implementations of various Reinforcement Learning algor
 
 ## References
 
-Tensorflow Python API documentation ([Web Link](https://www.tensorflow.org/api_docs/python/tf/all_symbols))
+- Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto ([Web Link](https://www.andrew.cmu.edu/course/10-703/textbook/BartoSutton.pdf))
+- The Reinforcement Learning Course by Hugging Face ([Web Link](https://huggingface.co/learn/deep-rl-course/en/unit0/introduction))
+- Spinning Up in Deep RL by OpenAI ([Web Link](https://spinningup.openai.com/en/latest/))
+- OpenAI Gymnasium API documentation ([Web Link](https://gymnasium.farama.org/index.html))
+- Tensorflow Python API documentation ([Web Link](https://www.tensorflow.org/api_docs/python/tf/all_symbols))
 
 ## Usage
 
