@@ -76,7 +76,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 01 Dynamic Programming - Value Iteration
+### 02 Dynamic Programming - Value Iteration
 
 <table>
   <tr>
@@ -86,7 +86,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 02 Monte Carlo - Monte Carlo Prediction
+### 03 Monte Carlo - Monte Carlo Prediction
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 02 Monte Carlo - Monte Carlo Exploring Starts
+### 04 Monte Carlo - Monte Carlo Exploring Starts
 
 <table>
   <tr>
@@ -106,7 +106,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 02 Monte Carlo - Monte Carlo On-Policy
+### 05 Monte Carlo - Monte Carlo On-Policy
 
 <table>
   <tr>
@@ -116,7 +116,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 02 Monte Carlo - Monte Carlo Off-Policy
+### 06 Monte Carlo - Monte Carlo Off-Policy
 
 <table>
   <tr>
@@ -126,7 +126,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 03 Temporal Difference - Temporal Difference Prediction
+### 07 Temporal Difference - Temporal Difference Prediction
 
 <table>
   <tr>
@@ -136,7 +136,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 03 Temporal Difference - SARSA
+### 08 Temporal Difference - SARSA
 
 <table>
   <tr>
@@ -146,7 +146,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 03 Temporal Difference - Q-Learning
+### 09 Temporal Difference - Q-Learning
 
 <table>
   <tr>
@@ -156,7 +156,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 03 Temporal Difference - Double Q-Learning
+### 10 Temporal Difference - Double Q-Learning
 
 <table>
   <tr>
@@ -166,7 +166,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 04 n-Step Bootstrapping - n-Step Prediction
+### 11 n-Step Bootstrapping - n-Step Prediction
 
 <table>
   <tr>
@@ -176,7 +176,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 04 n-Step Bootstrapping - n-Step SARSA
+### 12 n-Step Bootstrapping - n-Step SARSA
 
 <table>
   <tr>
@@ -186,7 +186,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 04 n-Step Bootstrapping - n-Step Tree Backup
+### 13 n-Step Bootstrapping - n-Step Tree Backup
 
 <table>
   <tr>
@@ -196,7 +196,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 05 Function Approximation - Semi-Gradient SARSA
+### 14 Function Approximation - Semi-Gradient SARSA
 
 <table>
   <tr>
@@ -206,7 +206,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 06 Deep Q-Network
+### 15 Deep Q-Network
 
 <table>
   <tr>
@@ -216,7 +216,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 07 Policy Gradient
+### 16 Policy Gradient
 
 <table>
   <tr>
@@ -226,7 +226,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 08 Proximal Policy Optimization: Clip
+### 17 Proximal Policy Optimization: Clip
 
 <table>
   <tr>
@@ -236,7 +236,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### 09 Monte Carlo Tree Search
+### 18 Monte Carlo Tree Search
 
 <table>
   <tr>
