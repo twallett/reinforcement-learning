@@ -1,82 +1,72 @@
+## <u> Reinforcement Learning </u>
+
+This repository contains implementations of various Reinforcement Learning algorithms. Each subdirectory corresponds to a specific lecture and includes code examples, explanations, and relevant environments.
+
 ## Folder Structure
 
 ```bash
 .
-├── 03-MAB
-│   └── 01-EpsilonGreedy
-├── 04-DP
-│   └── 01-IterativePolicyEvaluation
-├── 05-MC
-│   ├── 01-MonteCarloExploringStarts
-│   └── 02-MonteCarloPrediction
-├── 06-TD
-│   └── 01-TDPrediction
-├── 07-FA
-│   └── Base
-├── 08-DQN
-│   └── Base
-├── 09-PG
-│   └── Base
-├── 10-APG
-│   └── Base
-├── 11-MCTS
-│   └── Base
-├── .gitignore
+├── 01-DynamicProgramming
+│   ├── 01-IterativePolicyEvaluation
+│   └── 02-ValueIteration
+├── 02-MonteCarlo
+│   ├── 01-MonteCarloPrediction
+│   ├── 02-MonteCarloExploringStarts
+│   ├── 03-OnPolicyMonteCarlo
+│   └── 04-OffPolicyMonteCarlo
+├── 03-TemporalDifference
+│   ├── 01-TDPrediction
+│   ├── 02-SARSA
+│   ├── 03-Q-Learning
+│   └── 04-Double-Q-Learning
+├── 04-nStepBootstrap
+│   ├── 01-nPrediction
+│   ├── 02-nSARSA
+│   └── 03-nTreeBackup
+├── 05-FunctionApproximation
+│   ├── model.py
+│   ├── test.py
+│   ├── tile_coding.py
+│   └── train.py
+├── 06-DeepQNetwork
+│   ├── model.py
+│   ├── test.py
+│   └── train.py
+├── 07-PolicyGradient
+│   ├── model.py
+│   ├── test.py
+│   └── train.py
+├── 08-ProximalPolicyOptimization
+│   ├── model.py
+│   ├── test.py
+│   └── train.py
+├── 09-MonteCarloTreeSearch
+│   ├── model.py
+│   └── train.py
 ├── LICENSE
-└── README.md
+├── README.md
+├── pseudocode
+└── requirements.txt
 ```
 
 ## Environments 
 
 ```markdown
 .
-├── 03-MAB
-│   └── 01-EpsilonGreedy `Bernoulli & Gaussian generated environment using numpy`
-├── 04-DP
-│   └── 01-IterativePolicyEvaluation `GridWorldEnv`
-├── 05-MC
-│   ├── 01-MonteCarloExploringStarts `GridWorldEnv`
-│   └── 02-MonteCarloPrediction `GridWorldEnv`
-├── 06-TD
-│   └── 01-TDPrediction `GridWorldEnv`
-├── 07-FA
-│   └── Base `MountainCarContinuous-v0`
-├── 08-DQN
-│   └── Base `CartPole-v1`
-├── 09-PG
-│   └── Base `CartPole-v1`
-├── 10-APG
-│   └── Base `CartPole-v1`
-├── 11-MCTS
-│   └── Base `CartPole-v1`
-├── .gitignore
-├── LICENSE
-└── README.md
+├── 01-DynamicProgramming `GridWorldEnv`
+├── 02-MonteCarlo `GridWorldEnv`
+├── 03-TemporalDifference `GridWorldEnv`
+├── 04-nStepBootstrap `GridWorldEnv`
+├── 05-FunctionApproximation `MountainCarContinuous-v0`
+├── 06-DeepQNetwork `CartPole-v1`
+├── 07-PolicyGradient `CartPole-v1`
+├── 08-ProximalPolicyOptimization `CartPole-v1`
+└── 09-MonteCarloTreeSearch `CartPole-v1`
 ```
 
-## Requirements
+## Reinforcement Learning Algorithms
 
-```bash
-pip install -r requirements.txt
-```
-
-## <u> Reinforcement Learning Lecture Code </u>
-
-DATS 6450 Reinforcement Learning @ GWU Lecture Code 
-
-This repository contains implementations of various Reinforcement Learning algorithms and concepts, organized by lecture topics. Each subdirectory corresponds to a specific lecture and includes code examples, explanations, and relevant environments.
-
-### MAB - Epsilon Greedy
-
-<table>
-  <tr>
-    <td style="width: 50%;">
-      <img src="images/3-1.png" width="100%">
-    </td>
-  </tr>
-</table>
-
-### DP - Iterative Policy Evaluation
+### 01 Dynamic Programming - Iterative Policy Evaluation
 
 <table>
   <tr>
@@ -86,7 +76,17 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### MC - Monte Carlo Prediction
+### 01 Dynamic Programming - Value Iteration
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/4-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 02 Monte Carlo - Monte Carlo Prediction
 
 <table>
   <tr>
@@ -96,7 +96,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### TD - Temporal Difference Prediction
+### 02 Monte Carlo - Monte Carlo Exploring Starts
 
 <table>
   <tr>
@@ -106,7 +106,97 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### FA - Function Approximation
+### 02 Monte Carlo - Monte Carlo On-Policy
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/5-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 02 Monte Carlo - Monte Carlo Off-Policy
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/6-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 03 Temporal Difference - Temporal Difference Prediction
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/5-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 03 Temporal Difference - SARSA
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/6-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 03 Temporal Difference - Q-Learning
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/5-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 03 Temporal Difference - Double Q-Learning
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/6-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 04 n-Step Bootstrapping - n-Step Prediction
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/6-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 04 n-Step Bootstrapping - n-Step SARSA
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/5-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 04 n-Step Bootstrapping - n-Step Tree Backup
+
+<table>
+  <tr>
+    <td style="width: 50%;">
+      <img src="images/6-1.png" width="100%">
+    </td>
+  </tr>
+</table>
+
+### 05 Function Approximation - Semi-Gradient SARSA
 
 <table>
   <tr>
@@ -116,7 +206,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### DQN - Deep Q-Network
+### 06 Deep Q-Network
 
 <table>
   <tr>
@@ -126,7 +216,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### PG - Policy Gradient
+### 07 Policy Gradient
 
 <table>
   <tr>
@@ -136,7 +226,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### APG - Advanced Policy Gradient
+### 08 Proximal Policy Optimization: Clip
 
 <table>
   <tr>
@@ -146,7 +236,7 @@ This repository contains implementations of various Reinforcement Learning algor
   </tr>
 </table>
 
-### MCTS - Monte Carlo Tree Search (MCTS)
+### 09 Monte Carlo Tree Search
 
 <table>
   <tr>
@@ -155,6 +245,12 @@ This repository contains implementations of various Reinforcement Learning algor
     </td>
   </tr>
 </table>
+
+## Requirements
+
+```bash
+pip install -r requirements.txt
+```
 
 ## References
 
