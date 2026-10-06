@@ -71,7 +71,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/4-1.png" width="100%">
+      <img src="pseudocode/01/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -81,7 +81,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/4-1.png" width="100%">
+      <img src="pseudocode/01/02.png" width="100%">
     </td>
   </tr>
 </table>
@@ -91,7 +91,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/5-1.png" width="100%">
+      <img src="pseudocode/02/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -101,7 +101,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/6-1.png" width="100%">
+      <img src="pseudocode/02/02.png" width="100%">
     </td>
   </tr>
 </table>
@@ -111,7 +111,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/5-1.png" width="100%">
+      <img src="pseudocode/02/03.png" width="100%">
     </td>
   </tr>
 </table>
@@ -121,7 +121,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/6-1.png" width="100%">
+      <img src="pseudocode/02/04.png" width="100%">
     </td>
   </tr>
 </table>
@@ -131,7 +131,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/5-1.png" width="100%">
+      <img src="pseudocode/03/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -141,7 +141,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/6-1.png" width="100%">
+      <img src="pseudocode/03/02.png" width="100%">
     </td>
   </tr>
 </table>
@@ -151,7 +151,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/5-1.png" width="100%">
+      <img src="pseudocode/03/03.png" width="100%">
     </td>
   </tr>
 </table>
@@ -161,7 +161,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/6-1.png" width="100%">
+      <img src="pseudocode/03/04.png" width="100%">
     </td>
   </tr>
 </table>
@@ -171,7 +171,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/6-1.png" width="100%">
+      <img src="pseudocode/04/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -181,7 +181,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/5-1.png" width="100%">
+      <img src="pseudocode/04/02.png" width="100%">
     </td>
   </tr>
 </table>
@@ -191,7 +191,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/6-1.png" width="100%">
+      <img src="pseudocode/04/03.png" width="100%">
     </td>
   </tr>
 </table>
@@ -201,7 +201,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/7-1.png" width="100%">
+      <img src="pseudocode/05/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -211,7 +211,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/8-1.png" width="100%">
+      <img src="pseudocode/06/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -221,7 +221,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/9-1.png" width="100%">
+      <img src="pseudocode/07/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -231,7 +231,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/10-1.png" width="100%">
+      <img src="pseudocode/08/01.png" width="100%">
     </td>
   </tr>
 </table>
@@ -241,7 +241,7 @@ This repository contains implementations of various Reinforcement Learning algor
 <table>
   <tr>
     <td style="width: 50%;">
-      <img src="images/11-1.png" width="100%">
+      <img src="pseudocode/09/01.png" width="100%">
     </td>
   </tr>
 </table>
